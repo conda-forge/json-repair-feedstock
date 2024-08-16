@@ -1,5 +1,5 @@
 {% set name = "json-repair" %}
-{% set version = "0.27.2" %}
+{% set version = "0.28.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/json_repair-{{ version }}.tar.gz
-  sha256: 8a22455b58a098c73c18c81c4efe3d77e27763b4e643715ae20dce31eb4a703e
+  sha256: 76c7e569018a3d4534c8051d38c2781f1faaa315800bfa527356f3a6aef18b8d
 
 build:
   noarch: python
