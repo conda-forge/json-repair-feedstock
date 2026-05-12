@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: json-repair
-  version: "0.59.7"
+  version: "0.59.8"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/json_repair-${{ version }}.tar.gz
-  sha256: f23c7890b7d1760185ff316421bc776d31a29290a8d45997cfaf6c3add895aaa
+  sha256: 447e946b235ba0689a7f3d7f057988adebae316711cfb4170c44c5ea38ed5dea
 
 build:
   number: 0
